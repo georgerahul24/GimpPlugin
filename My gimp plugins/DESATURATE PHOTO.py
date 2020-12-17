@@ -4,7 +4,7 @@ from gimpfu import *
 def DESATURATEPHOTO(image, drawable):
     pdb.gimp_image_undo_group_start(image)
     # function code goes here...
-    pdb.gimp_message("eXTREME UNMASK STARTEDWITH DESATURATION")
+    pdb.gimp_message("EXTREME UNMASK STARTEDWITH DESATURATION")
     pdb.plug_in_unsharp_mask(image, drawable, 6,5,0.119)
     pdb.gimp_desaturate_full(drawable,0)
     
