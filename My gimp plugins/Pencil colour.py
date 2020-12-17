@@ -1,4 +1,4 @@
-
+'''Created by George Rahul'''
 
 from gimpfu import *
 
